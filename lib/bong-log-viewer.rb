@@ -6,6 +6,8 @@
 require 'rubygems'
 require 'sinatra'
 
+set :public, '/tmp/bong-log-viewer/public'
+
 helpers do
 
   def benchmark_link name
@@ -198,6 +200,8 @@ get '/style.css' do
     }
   ]
 end
+
+use_in_file_templates!
 
 __END__
 

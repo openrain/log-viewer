@@ -1,2 +1,17 @@
-#! /bin/bash
-ruby ../lib/bong-log-viewer.rb
+#! /usr/bin/env ruby
+require 'rubygems'
+
+puts "Loading bong-log-viewer ..."
+
+begin
+  require 'sinatra'
+rescue LoadError
+  puts "Sinatra gem must be installed: $ sudo gem install sinatra"
+  exit 
+end
+
+set :reload,        false
+set :environment,   :production
+set :run,           true
+
+require File.dirname(__FILE__) + '/../lib/bong-log-viewer'

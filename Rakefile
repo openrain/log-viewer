@@ -15,13 +15,7 @@ begin
     s.description = 'Sinatra application for viewing/comparing logs created by http://github.com/topfunky/bong'
     s.authors     = %w( remi )
     s.files       = FileList['[A-Z]*', '{lib,spec,bin,examples}/**/*'] 
-    s.executables << 'bong-log-viewer'
     s.extra_rdoc_files = %w( README.rdoc )
-    
-    # sinatra is a dependency, but it's on a different gem server :/
-    # s.add_dependency 'person-gemname'
-
-    # s.rubyforge_project = 'gemname'
   end
 rescue LoadError
   puts "Jeweler not available. Install it with: sudo gem install technicalpickles-jeweler -s http://gems.github.com"

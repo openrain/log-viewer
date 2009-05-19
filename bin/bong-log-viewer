@@ -1,0 +1,2 @@
+#! /bin/bash
+ruby ../lib/bong-log-viewer.rb

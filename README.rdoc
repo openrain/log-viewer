@@ -1,0 +1,16 @@
+= bong-log-viewer
+
+bong-log-viewer is a simple Sinatra application for viewing and comparing 
+benchmarking logs created by bong: http://github.com/topfunky/bong
+
+== Install
+
+  sudo gem install openrain-bong-log-viewer -s http://gems.github.com
+
+== Usage
+
+Run <tt>bong-log-viewer</tt> from the root of your Rails application (or wherever else)
+
+bong-log-viewer currently expects the default bong configration/log file locations:
+* config/httperf.yml
+* log/httperf-report.yml

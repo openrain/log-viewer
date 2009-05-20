@@ -161,6 +161,7 @@ get '/style.css' do
     ul {
       list-style-type: none;
     }
+
     #content li {
       margin-bottom: 0.5em;
     }

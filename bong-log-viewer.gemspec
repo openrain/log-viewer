@@ -6,7 +6,7 @@ Gem::Specification.new do |s|
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["remi"]
-  s.date = %q{2009-05-19}
+  s.date = %q{2009-05-20}
   s.default_executable = %q{bong-log-viewer}
   s.description = %q{Sinatra application for viewing/comparing logs created by http://github.com/topfunky/bong}
   s.email = %q{remi@remitaylor.com}

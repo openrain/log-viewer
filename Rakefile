@@ -11,10 +11,10 @@ begin
     s.name        = 'bong-log-viewer'
     s.summary     = 'Sinatra application for viewing/comparing logs created by bong'
     s.email       = 'remi@remitaylor.com'
-    s.homepage    = 'http://github.com/remi/bong-log-viewer'
+    s.homepage    = 'http://github.com/openrain/bong-log-viewer'
     s.description = 'Sinatra application for viewing/comparing logs created by http://github.com/topfunky/bong'
     s.authors     = %w( remi )
-    s.files       = FileList['[A-Z]*', '{lib,spec,bin,examples}/**/*'] 
+    s.files       = FileList['[A-Z]*', '{lib,bin}/**/*'] 
     s.extra_rdoc_files = %w( README.rdoc )
   end
 rescue LoadError

@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |s|
   s.name = %q{bong-log-viewer}
-  s.version = "0.1.0"
+  s.version = "0.1.1"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["remi"]
@@ -22,7 +22,7 @@ Gem::Specification.new do |s|
      "bin/bong-log-viewer",
      "lib/bong-log-viewer.rb"
   ]
-  s.homepage = %q{http://github.com/remi/bong-log-viewer}
+  s.homepage = %q{http://github.com/openrain/bong-log-viewer}
   s.rdoc_options = ["--charset=UTF-8"]
   s.require_paths = ["lib"]
   s.rubygems_version = %q{1.3.3}
